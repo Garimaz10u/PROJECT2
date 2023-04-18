@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <style>
+        *{
+    margin: 0;
+    padding:20;
+}
+.container{
+    height: 700px;
+    width:100%;
+    background-color:black;
+    display: flex;
+}
+.left-container{
+    height: 700px;
+    width: 30%;
+    background-color:rgb(114, 43, 114);
+}
+.welcome-container{
+  margin-top:50%;
+  display: flex;
+  flex-direction: column; 
+justify-content: center;
+    align-items:center;
+    text-decoration-color: white;
+}
+.right-container{
+    height: 700px;
+    width: 70%;
+    background-color:white;
+}
+.upp{
+    font-size: x-large;
+}
+.para {
+    text-align:center;
+    color: white;
+}
+.signin_btn{
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 17px;
+    display: block;
+    border-radius: 20px;
+    margin: auto;
+    background-color:black;
+    padding: 5px 
+}
+.heading{
+    color: white;
+
+}
+.fimg{
+    height: 40px;
+    width: 50px;
+    border-radius:20px ;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.upper{
+  
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+      align-items:center;
+      text-decoration-color: white
+}
+.data{
+    border: none;
+    margin: auto;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.Name{
+    width: 145%;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.Email{
+    width: 145%;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+    
+}
+.Password{
+    align-items: center;
+    width: 145%;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+.signup{
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 17px;
+    align-items: center;
+    display: block;
+    border-radius: 20px;
+    margin: auto;
+    background-color:black;
+    padding: 5px 
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class ="welcome-container">
+                <h1 class="heading">WELCOME BACK</h1>
+                <p class="para">TO KEEP CONNECTED WITH US LOGIN WITH YOUR PERSONAL INFORMATION</p>
+                <button class="signin_btn">SIGN IN</BUTTON>
+
+
+            </div>
+
+            
+        </div>
+        <div class="right-container">
+            <div class="upper">
+                <h2 class=" upp"> CREATE ACCOUNT</h2>
+                <DIV class="img">
+                    <img src="facebook icon.png"  class="fimg">
+                    <img src="linkedin-icon-.png" class="fimg">
+                    <img src="insta icon.png" class="fimg">
+                    <P> OR SIGN IN WITH YOUR EMAIL</P>
+                </DIV>
+                <div class="data">
+                    <input type="text" class="Name" placeholder="NAME"><br>
+                    <input type="text" class="Email" placeholder="EMAIL"><br>
+                    <input type="text" class="Password" placeholder="PASSWORD"><br>
+                    <button class=" signup">SIGN UP</button>
+                </div>
+              
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+ </html>
